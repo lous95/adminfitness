@@ -1,0 +1,11 @@
+<div ng-controller="showUserController">
+    <form action="">
+        <div id="userInformation">{{userInfo.name}} Information</div>
+        Name:<input type="text" class="form-control form-control-lg" ng-model="userInfo.name" ng-disabled="true"><br>
+        Username:<input type="text" class="form-control" ng-model="userInfo.username" ng-disabled="true"><br>
+        Email:<input type="email" class="form-control" ng-model="userInfo.email" ng-disabled="true"><br>
+        Phone:<input type="tel" class="form-control" ng-model="userInfo.phone" ng-disabled="true"><br>
+        Website:<input type="text" class="form-control" ng-model="userInfo.website" ng-disabled="true"><br>
+        Company:<input type="text" class="form-control" ng-model="userInfo.company.name" ng-disabled="true">
+    </form>
+</div>

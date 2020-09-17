@@ -1,0 +1,21 @@
+<div ng-controller="registerController" ng-init="">
+  <div>Check if email exists.</div>
+
+  <form>
+    <input
+      type="text"
+      name="emailField"
+      ng-model="emailInput"
+      ng-keyup="EnableDisable()"
+    /><br />
+    <input type="submit" ng-disabled="IsDisabled" />
+  </form>
+  
+
+
+  <!--<form>
+    <input type="text" name="emailField" ng-model="emailInput" register-user><br>
+    <input type="submit" ng-disabled="invalid">
+
+</form>-->
+</div>
